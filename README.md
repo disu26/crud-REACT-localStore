@@ -1,3 +1,25 @@
+#### Mejoras realizadas al código ###
+
+![image](https://user-images.githubusercontent.com/80411541/166154171-e12688e6-1ea6-4bb2-b80f-5f37c07641f4.png)
+
+Se editó la barra de búsqueda, para crearla utilizando bootstrap y así se pudo borrar su correspondiente archivo .css
+
+![image](https://user-images.githubusercontent.com/80411541/166154212-a62307a2-95ea-4561-9f3e-3e11788415bc.png)
+
+Antes se podían crear To Dos vacíos, se realizó una validación adicional para que esto no se pudiera y se mostrara un mensaje en caso de intentarlo.
+
+![image](https://user-images.githubusercontent.com/80411541/166154245-a4eca5c4-84f3-4f3a-8e96-39cb1865e2cb.png)
+
+Se presentaba un error al crear dos to dos iguales, ya que este valor era asignado como la llave de estos, este error se arregló haciendo uso de uuidv4, que sirve para crear un identificador único para cada to do.
+
+![image](https://user-images.githubusercontent.com/80411541/166154312-7eb417e0-beee-4e62-bef2-68f93c1e27dd.png)
+
+Se modificaron los íconos de completar y de eliminar utilizando React-Icons, de esta manera se ven más agradables.
+
+![image](https://user-images.githubusercontent.com/80411541/166154338-960a0705-9248-4ab0-ab5a-637caf9114e2.png)
+
+Se modificó el mensaje de to dos completados, utilizando bootstrap y React-Icons, para darle un diseño más amigable.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
