@@ -41,7 +41,6 @@ function TodoForm() {
         value={newTodoValue}
         onChange={onChange}
         placeholder="Cortar la cebolla para el almuerzo"
-        
       />
       <span className="text-danger text-small d-block mb-2">
           {errorMessage ? 'No se puede crear un TO DO vacío' : '' }
