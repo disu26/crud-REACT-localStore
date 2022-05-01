@@ -11,12 +11,16 @@ function TodoSearch() {
   };
 
   return (
-    <input
-      className="TodoSearch"
-      placeholder="Cebolla"
-      value={searchValue}
-      onChange={onSearchValueChange}
-    />
+    <div className='mt-3 inputs'>
+      <i className='fa fa-search'></i>
+      <input
+        type="search"
+        className="form-control"
+        placeholder="Buscar"
+        value={searchValue}
+        onChange={onSearchValueChange}
+      />
+    </div>
   );
 }
 
